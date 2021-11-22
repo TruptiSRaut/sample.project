@@ -9,3 +9,5 @@ My new project sample
 My name is trupti..
 
 i am from github
+
+new github component
