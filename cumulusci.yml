@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.48.2'
+project:
+    name: sample.project
+    package:
+        name: sample project
+        api_version: '52.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/sample.project/tests
+            options:
+                outputdir: robot/sample.project/results
+
+    robot_testdoc:
+        options:
+            path: robot/sample.project/tests
+            output: robot/sample.project/doc/sample.project_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
