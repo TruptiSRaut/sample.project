@@ -32,3 +32,15 @@ flows:
         steps:
             3:
                 task: load_dataset
+
+ project:
+    name: Sample Project
+    package:
+         name: Sample Project    
+
+project:
+    name: Sample Project 
+    package:
+         name: Sample Project 
+         namespace: SProject11          
+         
