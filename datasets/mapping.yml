@@ -1,45 +1,17 @@
-Insert Accounts:
-    sf_object: Account
-    table: Account
-    fields:
-        Name: Name
-        Description: Description
-        BillingStreet: BillingStreet
-        BillingCity: BillingCity
-        BillingState: BillingState
-        BillingPostalCode: BillingPostalCode
-        BillingCountry: BillingCountry
-        ShippingStreet: ShippingStreet
-        ShippingCity: ShippingCity
-        ShippingState: ShippingState
-        ShippingPostalCode: ShippingPostalCode
-        ShippingCountry: ShippingCountry
-        Phone: Phone
-        Fax: Fax
-        Website: Website
-        NumberOfEmployees: NumberOfEmployees
-        AccountNumber: AccountNumber
-        Site: Site
-        Type: Type
-Insert Contacts:
-    sf_object: Contact
-    table: Contact
-    fields:
-        Salutation: Salutation
-        FirstName: FirstName
-        LastName: LastName
-        Email: Email
-        Phone: Phone
-        MobilePhone: MobilePhone
-        OtherPhone: OtherPhone
-        HomePhone: HomePhone
-        Title: Title
-        Birthdate: Birthdate
-        MailingStreet: MailingStreet
-        MailingCity: MailingCity
-        MailingState: MailingState
-        MailingPostalCode: MailingPostalCode
-        MailingCountry: MailingCountry
-    lookups:
-        AccountId:
-            table: Account
+Insert Customer123__c:
+  sf_object: Customer123__c
+  fields:
+  - Customer_s_Phone__c
+  - Name
+Insert Delivery_product__c:
+  sf_object: Delivery_product__c
+  fields:
+  - Name
+  - Status__c
+Insert Owner__c:
+  sf_object: Owner__c
+  fields:
+  - Address__c
+  - Email_Id__c
+  - Name
+  - Phone_Number__c
