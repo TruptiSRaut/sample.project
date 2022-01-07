@@ -33,14 +33,14 @@ flows:
             3:
                 task: load_dataset
 
- project:
-    name: Sample Project
+  project:
+    name: sample project
     package:
-         name: Sample Project    
+         name: 	sample P  
 
 project:
-    name: Sample Project 
+    name: sample project
     package:
-         name: Sample Project 
-         namespace: SProject11          
+         name: sample P
+         namespace: ProjectSample12     
          
